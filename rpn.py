@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
 
 import operator
+import math
 
+def power_op(arg1, arg2):
+    pass
 
 operators = {
     '+': operator.add,
     '-': operator.sub,
     '*': operator.mul,
     '/': operator.truediv,
+    '^': power_op
 }
 
 def calculate(myarg):
