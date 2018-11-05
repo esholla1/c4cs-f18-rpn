@@ -4,7 +4,7 @@ import operator
 import math
 
 def power_op(arg1, arg2):
-    pass
+    return (arg1 ** arg2)
 
 operators = {
     '+': operator.add,
